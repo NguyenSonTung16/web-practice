@@ -32,7 +32,7 @@
     justify-content: space-between;
     font-size: 25px;
     margin-top: 20px;
-    padding: 0 20px
+    padding: 0 20px;
 }
 .button {
     display: flex;
@@ -74,4 +74,30 @@
 .rating label:hover::before {
     content: "★";
     color: gold;
+}
+.courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:30px 30px;
+    background-color: transparent;
+}
+.course-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top: 50px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+.course-button:hover {
+    background-color: darkblue;
+    cursor: pointer;
 }
