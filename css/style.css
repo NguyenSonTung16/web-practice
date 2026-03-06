@@ -1,6 +1,3 @@
-.body {
-    background-color: lightgrey;
-}
 .title {
     display: flex;
     flex-direction: row;
@@ -51,6 +48,10 @@
     border-color:transparent;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 0px 7px 15px 0px lightgray;
+}
+.button button:hover {
+    background-color: darkgreen;
 }
 .rating {    
     display: flex;
