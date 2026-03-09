@@ -1,0 +1,31 @@
+{
+  "name": "web-review",
+  "version": "1.0.0",
+  "description": "+----------------------------------+\r |        [ Hình ảnh khóa học ]     |\r |                                  |\r |  HTML & CSS for Beginners        |\r |  Học cách xây dựng website       |\r |                                  |\r |  ⏱ 6 tuần      👨‍🎓 120 học viên |\r |                                  |\r |       [ Đăng ký ngay ]           |\r +----------------------------------+",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenSonTung16/web-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NguyenSonTung16/web-practice/issues"
+  },
+  "homepage": "https://github.com/NguyenSonTung16/web-practice#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
